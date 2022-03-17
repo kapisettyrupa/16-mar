@@ -1,0 +1,18 @@
+l=input().split()
+x=[]
+for i in l:
+    x.append(input(i))
+e=[]
+o=[]
+res=[]
+for i in x:
+    if i%2==0:
+       e.append(i)
+    else:
+       o.append(i)
+res=e+o
+for i in res:
+    print(i,end='')
+    OUTPUT
+ 123456
+ 246135
